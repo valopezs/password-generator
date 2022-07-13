@@ -10,7 +10,6 @@ var passwordText = document.querySelector("#password");
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
-  var passwordText = document.querySelector("#password");
 }
 
 // Generate password function
@@ -24,6 +23,11 @@ function generatePassword(lower, upper, number, symbol, length) {
 
     //nothing was selected
     if(typesCount === 0){
+        return '';
+    }
+
+    //length of password has to be between 8-128 characters
+    if(length <= 7 || length >= 129){
         return '';
     }
     
