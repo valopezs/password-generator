@@ -83,6 +83,14 @@ input[type=checkbox] {
 	margin-right: 0;
 }
 
+input[type="number" i] {
+  padding: 1px 2px;
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+}
+
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);

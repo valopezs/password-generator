@@ -1,20 +1,19 @@
 # password-generator
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+# Description
 
-# So I am going to ask for length
-8-128 characters
-# Character Types
-lowercase DONE
-uppercase DONE
-numeric DONE
-special characters
+Hi! In this password generator you are able to modify the type of password you need for any account being made.
+
+Some of the modification inclue:
+- Length of password (Between 8 and 128 characters)
+- Lowercase characters are optional
+- Uppercase characters are optional
+- Numeric characters are optional
+- Special characters are optional
+
+# Screenshots
+
+![Alt text](/images/Screen%20Shot%202022-07-12%20at%2010.11.12%20PM.png)
+![Alt text](/images/Screen%20Shot%202022-07-12%20at%2010.11.32%20PM.png)
+
+# Link
